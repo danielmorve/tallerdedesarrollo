@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-color: #6D6875;
+    text-align: center;
+    color: white;
+    padding: 30px;
+
+}
+
+nav{
+    float: left;
+    width: 30%;
+    height: 500px;
+    background-color: #E5989B;
+}
+
+article{
+    float: left;
+    width: 40%;
+    background-color: #FFCDB2;
+    height: 500px;
+}
+
+#fotoCiudad{
+    float: left;
+    background-color: #FFB4A2;
+    width: 30%;
+    height: 500px;
+}
+
+footer{
+    clear: both;
+    background-color: #B5838D;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+h2,p{
+    padding: 30px;
+}
+

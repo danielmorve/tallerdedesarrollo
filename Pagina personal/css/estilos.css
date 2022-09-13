@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "GodOfWar";
+    src: url("C:\Users\danim\OneDrive\Escritorio\Taller de desarrollo\Pagina personal\fuente\GODOFWAR.TTF") format("truetype");
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://images8.alphacoders.com/710/710329.jpg);
+}
+
+header{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-family: 'GodOfWar';
+    
+
+}
+
+nav{
+   
+    color: white;
+    padding: 30px;
+    font-family: 'GodOfWar';
+
+    float: center;
+    
+    width: 100%;
+    
+    background-color: #3D0000;
+    opacity: 80%;
+}
+
+#lista1 li{
+    clear: both;
+    display: inline;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+article{
+    float: left;
+    width: 40%;
+    background-color: #0F3D3E;
+    height: 500px;
+    opacity: 80%;
+
+    font-family: 'GodOfWar';
+
+}
+
+#fotoCiudad{
+    float: left;
+  
+    width: 50%;
+    height: 500px;
+    
+}
+
+footer{
+    clear: both;
+    background-color: #3D0000;
+    padding: 30px;
+    text-align: Left;
+    color: white;
+        opacity: 80%;
+
+}
+
+h2,p{
+    padding: 30px;
+}
+
+a{
+    color: white;
+}
+
+
+
