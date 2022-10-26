@@ -18,29 +18,34 @@
 	<!-- BS Icons-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+  <!--Fuentes google: Oswald-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
  </head>
 <body>
+  <div id="inicio" class="col-12"></div>
 
-  <nav class="navbar navbar-expand-lg bg-light sticky-md-top" id="inicio">
+  <nav class="navbar navbar-expand-lg align-top" id="" style="background-color: #fef1e0;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#carouselExampleControls">
-        <img src="imagenes/LogoNoFondo.png" alt="LogoMortech" width="120px">
+      <a class="navbar-brand" href="#inicio">
+        <img src="imagenes/LogoNoFondo.png" alt="LogoMortech" width="110px">
         </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#carouselExampleControls">INICIO</a>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-lg-4">
             <a class="nav-link" aria-current="page" href="#quees">¿QUIENES SOMOS?</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-lg-4">
             <a class="nav-link" aria-current="page" href="#productos">PAQUETES</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-lg-4">
             <a class="nav-link" aria-current="page" href="#formacontacto">CONTACTO</a>
           </li>
         </ul>
@@ -49,67 +54,70 @@
 </nav>
 
 
-
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imagenes/proyecto1.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/proyecto2.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="imagenes/proyecto3.2.webp" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+<div class="row">
+  <div id="carouselExampleControls" class="carousel slide col-md-6" data-bs-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/proyecto1.webp" class="d-block w-100" alt="...">
       </div>
+      <div class="carousel-item">
+        <img src="imagenes/proyecto2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/proyecto3.2.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container-fluid col-md-6" id="quees">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>¿Qué es Mortech?</h1>
+                <h2 class="text-warning">Empresa de software</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <p>Somos una empresa completamente dedicada a software especializado, además de consultoría a pequeñas, medianas y grandes empresas.
+                </p>
+                <p>
+                  Nacimos en 2022 con la misión de proveer más y mejor Software para todo tipo de empresas y negocios.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+              <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+              <lord-icon
+                  src="https://cdn.lordicon.com/gqqykmqo.json"
+                  trigger="hover"
+                  style="width:250px;height:250px">
+              </lord-icon>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
 
       
 
       
 
-      <div class="container-fluid" id="quees">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1>¿Qué es Mortech?</h1>
-                    <h2 class="text-warning">Empresa de software</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <p>Somos una empresa completamente dedicada a software especializado, además de consultoría a pequeñas, medianas y grandes empresas.
-                    </p>
-                    <p>
-                      Nacimos en 2022 con la misión de proveer más y mejor Software para todo tipo de empresas y negocios.
-                    </p>
-                </div>
-                <div class="col-12 col-md-6 text-center">
-                  <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
-                  <lord-icon
-                      src="https://cdn.lordicon.com/gqqykmqo.json"
-                      trigger="hover"
-                      style="width:250px;height:250px">
-                  </lord-icon>
-                </div>
-            </div>
-        </div>
-      </div>
+      
 
-      <div class="container-fluid my-5 py-5" id="productos">
+      <div class="container-fluid " id="productos">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center py-5">
                   <div class="alert alert-success" role="alert">
-                    ¡Oferta por inauguración! La consulta estará al 50% de descuento por los proximos 10 días
+                    ¡Oferta por inauguración! La consulta estará al 50% de descuento hasta el 7/Noviembre/2022
                   </div>
                     <h2>Nuestros productos</h2>
                 </div>
@@ -118,7 +126,7 @@
         <div class="row" data-aos="flip-down">
             <div class="col-12 col-md-4 px-5 d-flex align-items-center justify-content-center text-center">
               <div class="plan-card shadow">
-                <h2>Empresas grandes<span>Menos de 50 empleados</span></h2>
+                <h2>Empresas pequeñas<span>Menos de 50 empleados</span></h2>
                 <div class="etiquet-price">
                     <p>From 249.99 USD</p>
                     <div></div>
@@ -148,7 +156,7 @@
 
             </div>
 
-            <div class="col-12 col-md-4 px-5 d-flex align-items-center justify-content-center text-center">
+            <div class="col-12 col-md-4 px-5 py-5 d-flex align-items-center justify-content-center text-center">
             <div class="plan-card shadow">
               <h2>Empresas medianas<span>Hasta 500 empleados</span></h2>
               <div class="etiquet-price">
@@ -209,15 +217,14 @@
             </div>
         </div>
         </div>
-           <div id="formacontacto"></div>
         </div>
       </div>
 
-      <form name="formacontacto" action="">
+      <form name="formacontacto" action="" id="formacontacto">
         <fieldset>
         
-
-      <div class="container-fluid py-5 bg-light">
+<div class="py-4"></div>
+      <div class="container-fluid py-2 bg-light">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -260,71 +267,38 @@
     </fieldset>
   </form>
 
-  <div class="container-fluid">
+
+  <div class="container-fluid py-5">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h2 class="text-center">CARACTERISTICAS DE LOS PAQUETES</h2>
+        <div class="col-12 py-5 text-center">
+          <h2>Certificaciones y tecnologías</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-          <table class="table text-center table-bordered table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Paquete 1</th>
-                <th scope="col">Paquete 2</th>
-                <th scope="col">Paquete 3</th>
-                
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                
-                <td>x empleados</td>
-                <td>xx empleados</td>
-                <td>xxx empleados</td>
-              </tr>
-              <tr>
-                
-                <td>Almacenamiento x gigas</td>
-                <td>Almacenamiento xx gigas</td>
-                <td>Almacenamiento xxx gigas</td>
-              </tr>
-
-              
-              
-            </tbody>
-          </table>
+        <div class="col-12 col-md-2">
+          <img src="imagenes/sellociberseguridad.png" class="img-fluid w-100" alt="">
+        </div>
+        <div class="col-12 col-md-2">
+          <img src="imagenes/htmllogosi.png" class="img-fluid w-100 " alt="">
+        </div>
+        <div class="col-12 col-md-2">
+          <img src="imagenes/csslogo.png" class="img-fluid w-100 " alt="">
+        </div>
+        <div class="col-12 col-md-2">
+          <img src="imagenes/javalogo.png" class="img-fluid w-100" alt="">
+        </div>
+        <div class="col-12 col-md-2">
+          <img src="imagenes/javascriptlogo.png" class="img-fluid w-100" alt="">
+        </div>
+        <div class="col-12 col-md-2">
+          <img src="imagenes/bootstrap-logo.svg" class="img-fluid w-100" alt="">
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="alert alert-success" role="alert">
-            ¡Oferta! La consulta estará al 50% de descuento por los proximos días
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <img src="imagenes/logoFavicon.png" class="img-thumbnail shadow w-100" alt="">
-        </div>
-        <div class="col-12 col-md-4">
-          <img src="imagenes/logoFavicon.png" class="img-thumbnail shadow w-100 " alt="">
-        </div>
-        <div class="col-12 col-md-4">
-          <img src="imagenes/logoFavicon.png" class="img-thumbnail shadow w-100 " alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid py-5">
+   <!--<div class="container-fluid py-5">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -369,10 +343,12 @@
         </div>
         </div>
     </div>
-  </div>
+  </div>--> 
+
+  
 
 
-      <div class="container-fluid text-white p-5" id="piedepagina">
+      <div class="container-fluid text-white p-5" id="piedepagina" style="background-color: #3f0632;">
         <footer>
             <div class="row">
                 <div class="col-12 col-md-4">
@@ -414,10 +390,12 @@
                 </div>
                 <div class="col-12 col-md-4 text-center">
                   <h3>SIGUENOS EN REDES</h3>
-                  <a href="https://facebook.com"><i class="bi bi-facebook iconosredes"></i></a>
-                  <a href="https://instagram.com"><i class="bi bi-instagram iconosredes"></i></a>
-                  <a href="https://twitter.com"></a><i class="bi bi-twitter iconosredes"></i>
-                  <h1> </h1>
+                  <a target="_blank" href="https://www.facebook.com/profile.php?id=100002966083205"><i class="bi bi-facebook iconosredes"></i></a>
+                  <a target="_blank" href="https://www.instagram.com/daniel.morve/"><i class="bi bi-instagram iconosredes"></i></a>
+                  <a target="_blank" href="https://twitter.com"><i class="bi bi-twitter iconosredes"></i></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/daniel-moreno-vega-bb7049249/"><i class="bi bi-linkedin iconosredes"></i></a>
+
+                  <h3 class="text-warning"> Suscribete a nuestro newsletter</h3>
                   <div class="input-group d-flex align-items-center justify-content-center">
                     <input type="email" class="input" id="Email" name="Email" placeholder="correo@example.com" autocomplete="on">
                     <input class="button--submit" value="Suscribete" type="submit">
